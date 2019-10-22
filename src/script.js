@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		variableB = 0;
 		operacion = "";
 	}
+	
 	function resolver(){
 	  var res = 0;
 	  switch(operacion){
@@ -41,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	  resultado.textContent = res;
 	  finalizado = true;
 	}
-	
+
 
 	document.querySelectorAll(".numero").forEach(function(but){
 		but.onclick = function(){
